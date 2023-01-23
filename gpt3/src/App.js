@@ -1,11 +1,9 @@
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <h2>Hello From this app</h2>
-    </div>
-  );
-}
+const App = () => (
+  <div className="App">
+    <h2>GPT3</h2>
+  </div>
+);
 
 export default App;
