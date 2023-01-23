@@ -1,3 +1,4 @@
+import './CallToAction.css'
 
 const CallToAction = () => {
   return (

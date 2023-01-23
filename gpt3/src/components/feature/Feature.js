@@ -1,3 +1,4 @@
+import './Feature.css'
 
 const Feature = () => {
   return (
