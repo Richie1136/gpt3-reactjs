@@ -35,4 +35,24 @@ margin-right: 2rem;
   .gpt3-navbar-links-container p, .gpt3-navbar-sign p, .gpt3-navbar-menu-container {
    color: #fff;
    font-family: var(--font-family);
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 25px;
+   text-transform: capitalize;
+   margin: 0 1rem;
+   cursor: pointer;
+  }
+
+  .gpt3-navbar-sign button, .gpt3-navbar-menu-container button{
+padding: 0.5rem 1rem;
+background-color: #FF4820;
+border-radius: 5px;
+color: #fff;
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 18px;
+line-height: 25px;
+border: 0;
+outline: 0;
+cursor: pointer;
   }
