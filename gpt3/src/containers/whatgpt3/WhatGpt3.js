@@ -1,8 +1,24 @@
 import './WhatGpt3.css'
+import Feature from '../../components/feature/Feature'
 
 const WhatGpt3 = () => {
   return (
-    <div>WhatGpt3</div>
+    <div className='gpt3-whatgpt3 section-margin' id='whpt3'>
+      <div className='gpt3-whatgpt3-feature'>
+        <Feature />
+      </div>
+      <div className='gpt3-whatgpt3-heading'>
+        <h1 className='gradient-text'>
+          The possibilities are beyond your imagination
+        </h1>
+        <p>Explore the Library</p>
+      </div>
+      <div className='gpt3-whatgpt3-container'>
+        <Feature />
+        <Feature />
+        <Feature />
+      </div>
+    </div>
   )
 }
 
