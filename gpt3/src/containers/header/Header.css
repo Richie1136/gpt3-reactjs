@@ -35,15 +35,42 @@
 
 .gpt3-header-content-input input {
   background-color: var(--color-footer);
-  border-radius: 5px 0 0 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
   font-family: var(--font-family);
   border: 2px solid var(--color-footer);
-font-size: 20px;
-line-height: 27px;
-color: #fff;
-flex: 2;
-width: 100%;
-min-height: 50px;
-padding: 0 1rem;
-outline: none;
+  font-size: 20px;
+  line-height: 27px;
+  color: #fff;
+  flex: 2;
+  width: 100%;
+  min-height: 50px;
+  padding: 0 1rem;
+  outline: none;
+}
+
+.gpt3-header-content-input button {
+  background-color: #FF4820;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 27px;
+  color: #FFFFFF;
+  flex: 0.6;
+  width: 100%;
+  min-height: 50px;
+  cursor: pointer;
+  outline: none;
+  padding: 0 1rem;
+  border: none;
+}
+
+.gpt3-header-content-people {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 2rem;
 }
