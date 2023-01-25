@@ -1,3 +1,4 @@
+import { Article } from '../../components'
 import './Blog.css'
 
 const Blog = () => {
@@ -8,10 +9,13 @@ const Blog = () => {
       </div>
       <div className='gpt3-blog-container'>
         <div className='gpt3-blog-container-groupA'>
-
+          <Article />
         </div>
         <div className='gpt3-blog-container-groupB'>
-
+          <Article />
+          <Article />
+          <Article />
+          <Article />
         </div>
       </div>
     </div>

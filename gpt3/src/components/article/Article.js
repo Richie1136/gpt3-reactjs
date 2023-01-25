@@ -2,7 +2,7 @@ import './Article.css'
 
 const Article = () => {
   return (
-    <div>Article</div>
+    <div className='gpt3-blog-container-article'>Article</div>
   )
 }
 
