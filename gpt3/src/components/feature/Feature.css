@@ -43,3 +43,19 @@
   line-height: 24px;
   color: var(--color-text);
 }
+
+@media screen and (max-width: 550px) {
+  .gpt3-features-container-feature-title h1 {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .gpt3-features-container-feature-title p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .gpt3-features-container-feature {
+    margin: 1rem 0;
+  }
+}
