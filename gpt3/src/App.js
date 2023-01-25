@@ -1,6 +1,6 @@
 import './App.css';
 import { Footer, Blog, Possibility, Features, WhatGpt3, Header } from './containers';
-import { CallToAction, Brand, NavBar } from './components';
+import { ClickToAction, Brand, NavBar } from './components';
 
 const App = () => (
   <div className="App">
@@ -12,7 +12,7 @@ const App = () => (
     <WhatGpt3 />
     <Features />
     <Possibility />
-    <CallToAction />
+    <ClickToAction />
     <Blog />
     <Footer />
   </div>
